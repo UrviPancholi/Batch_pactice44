@@ -9,5 +9,6 @@ public class HomePage_steps extends Home_Page {
 	public void seach_items (String selectItemV, String searchItem) throws Exception {
 		Thread.sleep(2000);
 		searchIytem (searchItem, selectItemV);
+		System.out.println("hi");
 	}
 }
